@@ -1,17 +1,22 @@
 
+* {
+	margin: 0;
+	border: 0;
+}
+
 .block1 {
 	background: #1F2937;
 }
 .header {
 	display: flex;
 	justify-content: space-between;
-	padding: 0px 200px;
+	padding: 50px 200px;
 }
 
 .logo {
 	color: #F9FAF8;
 	font-size: 24px;
-	font-weight: 500;
+	font-weight: 700;
 	font-family: "roboto";
 }
 
@@ -23,7 +28,22 @@
 
 .welcome {
 	display: flex;
-	padding: 0px 200px;
+	padding: 100px 200px;
+	justify-content: space-between;
+	align-items: center;
+/*	max-width: 2000px;*/
+/*	padding: 100px;*/
+}
+
+.welcome-column {
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+}
+
+.hero {
+	font-size: 12px;
+/*	font-weight: 00;*/
 }
 
 .ruboto {
@@ -34,6 +54,10 @@
 .hero {
 	font-size: 48px;
 	font-weight: 500;
+}
+
+.info {
+	padding: 20px 0px;
 }
 
 a {
@@ -50,4 +74,16 @@ li {
 img {
 	width: auto;
 	height: 300px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  background: #3882F6;
+  padding: 8px 15px;
+  width: 200px;
 }
