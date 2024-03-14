@@ -12,6 +12,7 @@ body {
 
 .block1 {
 	background: #1F2937;
+	padding: 0px 180px;
 }
 .header {
 	display: flex;
