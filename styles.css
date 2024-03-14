@@ -59,6 +59,7 @@ body {
 
 .info {
 	padding: 20px 0px;
+	color: #E5E7EB;
 }
 
 .block2 {
@@ -119,6 +120,7 @@ h1 {
 	padding: 70px;
 	font-family: "roboto";
 	font-size: 20px;
+	color: #E5E7EB;
 }
 
 p {
@@ -130,15 +132,23 @@ p {
 	color: white;
 }
 
-/*.author {
-	align-items: flex-start;
-}*/
+.author {
+	text-align: right;
+	width: 400px;
+	font-family: "roboto";
+	font-size: 30px;
+	font-weight: 600;
+	color: #1F2937;
+
+	/*	font-size: 100px;*/
+}
 
 .quote {
 	max-width: 500px;
 	font-size: 36px;
 	color: #1F2937;
 	font-style: italic;
+	font-weight: 300;
 	font-family: "roboto";
 }
 
@@ -164,7 +174,7 @@ button {
   border: none;
   font-size: 18px;
   font-weight: 600;
-  border-radius: 15px;
+  border-radius: 8px;
   background: #3882F6;
   padding: 8px 15px;
   width: 200px;
