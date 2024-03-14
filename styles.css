@@ -16,7 +16,7 @@ body {
 .header {
 	display: flex;
 	justify-content: space-between;
-	padding: 50px 200px;
+	padding: 20px 200px;
 }
 
 .logo {
@@ -37,19 +37,12 @@ body {
 	padding: 100px 200px;
 	justify-content: space-between;
 	align-items: center;
-/*	max-width: 2000px;*/
-/*	padding: 100px;*/
 }
 
 .welcome-column {
 	display: flex;
 	flex-direction: column;
 	max-width: 400px;
-}
-
-.hero {
-	font-size: 12px;
-/*	font-weight: 00;*/
 }
 
 .ruboto {
@@ -115,6 +108,15 @@ h1 {
 	gap: 140px;
 	border-radius: 15px;
 	color: lightgrey;
+}
+
+.footer {
+	background: #1F2937;
+	color: white;
+	text-align: center;
+	padding: 70px;
+	font-family: "roboto";
+	font-size: 20px;
 }
 
 p {
