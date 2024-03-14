@@ -2,7 +2,6 @@
 * {
 	margin: 0;
 	border: 0;
-/*	padding: px;*/
 }
 
 body {
@@ -107,8 +106,8 @@ h1 {
 	display: flex;
 	justify-content: center;
 	background: #3882F6;
-	padding: 100px;
-	margin: 200px;
+	padding: 50px 80px;
+	margin: 100px 380px;
 	gap: 140px;
 	border-radius: 15px;
 	color: lightgrey;
