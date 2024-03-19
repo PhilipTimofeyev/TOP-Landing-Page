@@ -21,16 +21,22 @@ body {
 	padding: 20px 200px;
 }
 
-.logo {
-	color: #F9FAF8;
-	font-size: 24px;
-	font-weight: 700;
-}
-
 .header-links {
 	display: flex;
 	align-items: center;
 	gap: 15px;
+}
+
+a[href^="#"] {
+  text-decoration: none;
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.logo {
+	color: #F9FAF8;
+	font-size: 24px;
+	font-weight: 700;
 }
 
 .welcome {
@@ -50,7 +56,6 @@ body {
 	font-size: 48px;
 	font-weight: 800;
 	color: #F9FAF8;
-
 }
 
 .info {
@@ -63,7 +68,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	background: white;
-	padding: 60px;
+	padding: 100px;
 }
 
 .images {
@@ -78,7 +83,7 @@ body {
 
 h1 {
 	color: black;
-	padding: 30px;
+/*	padding: 30px;*/
 }
 
 .block-image {
@@ -138,12 +143,6 @@ h1 {
 	color: #1F2937;
 	font-style: italic;
 	font-weight: 300;
-}
-
-a[href^="#"] {
-  text-decoration: none;
-  color: #E5E7EB;
-  font-size: 18px;
 }
 
 li {
