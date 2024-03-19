@@ -7,12 +7,14 @@
 body {
 	display: flex;
 	flex-direction: column;
+	font-family: "roboto";
 }
 
 .block1 {
 	background: #1F2937;
 	padding: 0px 180px;
 }
+
 .header {
 	display: flex;
 	justify-content: space-between;
@@ -23,7 +25,6 @@ body {
 	color: #F9FAF8;
 	font-size: 24px;
 	font-weight: 700;
-	font-family: "roboto";
 }
 
 .header-links {
@@ -43,11 +44,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	max-width: 400px;
-}
-
-.ruboto {
-	font-family: "roboto";
-	color: #F9FAF8;
 }
 
 .hero {
@@ -81,7 +77,6 @@ body {
 }
 
 h1 {
-	font-family: "roboto";
 	color: black;
 	padding: 30px;
 }
@@ -118,13 +113,8 @@ h1 {
 	color: white;
 	text-align: center;
 	padding: 70px;
-	font-family: "roboto";
 	font-size: 20px;
 	color: #E5E7EB;
-}
-
-p {
-	font-family: "roboto";
 }
 
 .bigger {
@@ -135,7 +125,6 @@ p {
 .author {
 	text-align: right;
 	width: 400px;
-	font-family: "roboto";
 	font-size: 30px;
 	font-weight: 600;
 	color: #1F2937;
@@ -149,14 +138,12 @@ p {
 	color: #1F2937;
 	font-style: italic;
 	font-weight: 300;
-	font-family: "roboto";
 }
 
 a {
 	text-decoration: none;
 	color: #E5E7EB;
 	font-size: 18px;
-	font-family: "roboto";
 }
 
 li {
@@ -169,7 +156,6 @@ img {
 }
 
 button {
-  font-family: Roboto, sans-serif;
   color: white;
   border: none;
   font-size: 18px;
