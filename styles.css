@@ -83,7 +83,8 @@ a[href^="#"] {
 
 h1 {
 	color: black;
-/*	padding: 30px;*/
+	font-weight: 800;
+	padding-bottom: 60px;
 }
 
 .block-image {
@@ -99,7 +100,6 @@ h1 {
 	padding: 100px;
 	align-items: center;
 	flex-direction: column;
-/*	max-width: 100px;*/
 }
 
 .block4 {
